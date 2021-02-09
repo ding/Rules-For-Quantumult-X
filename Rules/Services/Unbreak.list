@@ -30,7 +30,6 @@ host,msg.umeng.com,DIRECT
 host,msg.umengcloud.com,DIRECT
 
 # > Clubhouse
-host-suffix, agora.io, PROXY
-host-suffix, agora.cn, PROXY
-user-agent, clubhouse*, PROXY
-ip-cidr, 165.52.102222.0/24, DIRECT
+host-suffix,agora.io,PROXY
+host-suffix,agora.cn,PROXY
+user-agent,clubhouse*,PROXY
