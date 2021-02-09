@@ -1,4 +1,6 @@
-# ClubHouse
-user-agent,Clubhouse*
-host-suffix,clubhouse.com
-host-suffix,clubhouseapi.com
+# >ClubHouse
+ip-cidr, 164.52.102.0/24, direct
+user-agent,clubhouse*, Clubhouse
+host-suffix,clubhouse.com, Clubhouse
+host-suffix,clubhouseapi.com, Clubhouse
+host-suffix,agora.io, Clubhouse
