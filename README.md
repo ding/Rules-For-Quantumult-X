@@ -19,7 +19,6 @@
 ![GitHub stars](https://img.shields.io/github/stars/sve1r/Rules-For-Quantumult-X?color=ffd700&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/sve1r/Rules-For-Quantumult-X?color=60c5ba&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/sve1r/Rules-For-Quantumult-X?color=1E90FF&style=for-the-badge)
-![Github Codelines](https://img.shields.io/tokei/lines/github/sve1r/Rules-For-Quantumult-X?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/sve1r/Rules-For-Quantumult-X?style=for-the-badge)
 ![Twitter URL](https://img.shields.io/twitter/url?label=Twitter&logo=Twitter&color=e85a71&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FSveirH)
 
@@ -145,11 +144,19 @@
 
 请暂时关闭待验证成功后再开启，或者如校园网运营商客户端的可将相关域名或 IP 地址手动加入至 【分流】中。
 
-> 2.打开「淘宝」等阿里系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
+> 2.iOS 12 上 Siri 无法正常使用
+
+[#55](https://github.com/ConnersHua/Profiles/issues/55) （仅）iOS 12 的 Bug，尝试多次重启直至正常。
+
+> 3.Clash 连接不上内网服务器
+
+您可以手动移除掉配置内的相关 DNS 配置。
+
+> 4.打开「淘宝」等阿里系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
 
 部分「阿里云」节点会导致此问题，请尝试使用其他节点。
 
-> 3.关于 Speedtest 想直连/代理？
+> 5.关于 Speedtest 想直连/代理？
 
 规则对于 Speedtest 不是绝对的直连也不是绝对的代理，对于国内测速点是直连，对于国外测速点是代理。
 
@@ -210,25 +217,18 @@ Repository
 ├── /Rewrite/
 ├── /Rules/
 │  ├── /Advertising/
-│  │  ├── /NormalApp/ -> 常用 App 屏蔽
-│  │  ├── /VideoApp/ -> 视频 App 屏蔽
-│  │  ├── AdReject.list -> 补充规则
-│  │  ├── antiAD-V4.list -> 补充规则
+│  ├── /Apps/
+│  │  ├── /SNS/
 │  ├── /Games/
-│  │  ├── Game.list -> 游戏规则
 │  ├── /Media/
 │  │  ├── /Domestic/
-│  │  │  ├── ....    -> 详细规则
 │  │  ├── /Foreign/
-│  │  │  ├── ....    -> 详细规则
 │  │  ├── DomesticMedia.list
 │  │  ├── ForeignMedia.list
 │  │  ├── Readme.md
 │  ├── /Region/
 │  ├── /Services/
-│  │  ├── /SNS/   -> SNS 规则
-│  │  ├── ....    -> 详细规则
-├── /Scripts/   -> 内容请参见文件夹内 README
+├── /Scripts/
 ├── LICENSE
 └── Readme.md
 ```
