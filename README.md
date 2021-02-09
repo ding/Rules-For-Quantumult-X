@@ -22,7 +22,7 @@
 ![Github Codelines](https://img.shields.io/tokei/lines/github/sve1r/Rules-For-Quantumult-X?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/sve1r/Rules-For-Quantumult-X?style=for-the-badge)
 ![Twitter URL](https://img.shields.io/twitter/url?label=Twitter&logo=Twitter&color=e85a71&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FSveirH)
-
+[![](https://img.shields.io/badge/-t.me/sve1r-3db6f1?style=for-the-badge&logo=Telegram&logoColor=2ca5e0)](https://t.me/sve1r)
 <!-- PROJECT LOGO -->
 <br />
 
@@ -73,6 +73,7 @@
 
 ### `🌐 公共 DNS 推荐`
 
+    - https://doh.pub/dns-query
     - 119.29.29.29 [腾讯DnsPod+]
     - 182.254.116.116
     - 223.5.5.5 [阿里云公共DNS]
@@ -89,17 +90,28 @@
 
 1. 选择你想要使用的规则
 2. 获取 RAW 链接
- 
+```
 例如：
+  
+  https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
+  此为浏览器地址栏中获取到的链接
 
-① https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list `此为浏览器地址栏中获取到的链接`
+```
+3.使用 **镜像加速域名** 替换 RAW链接,以避免更新配置时出错的相关问题
+```
+例如：
+  
+  https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
+  
+  请将 *raw.githubusercontent.com* 替换为 *raw.sevencdn.com*
+  
+  替换后链接为
+  
+  https://raw.sevencdn.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
+```
 
-或
+#### *此处鸣谢 7ed.net 提供的公共 CDN 加速服务*
 
-② https://github.com/sve1r/Rules-For-Quantumult-X/raw/master/Rules/Media/ForeignMedia.list `此为右键 RAW 按钮获取到的链接`
-
->Tips：由于 Github 会将 ②链接 302重定向至 ①链接，所以上面两个链接在实际使用中为等同效果。
-实际使用中可以使用 ②链接 以此减少一部分的配置文件存储大小。
 
 ### 3.推荐排序
 
@@ -252,6 +264,7 @@ Repository
 
 
 # **6️⃣来源与鸣谢**
+- [@NobyDa](https://github.com/NobyDa/Scipts)
 - [@anti-AD V4](https://github.com/privacy-protection-tools/anti-AD)
 - [@ConnersHua](https://github.com/ConnersHua)
 - [@lhie1](https://github.com/lhie1)
