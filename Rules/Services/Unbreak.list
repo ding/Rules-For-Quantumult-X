@@ -28,8 +28,3 @@ host,analytics.strava.com,DIRECT
 # > Umeng
 host,msg.umeng.com,DIRECT
 host,msg.umengcloud.com,DIRECT
-
-# > Clubhouse
-host-suffix,agora.io,PROXY
-host-suffix,agora.cn,PROXY
-user-agent,clubhouse*,PROXY
