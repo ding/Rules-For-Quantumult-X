@@ -8,6 +8,7 @@ IP-CIDR, 23.98.43.152/32, direct
 IP-CIDR, 35.156.231.1/24, direct
 IP-CIDR, 35.168.106.1/24, direct
 IP-CIDR, 35.178.208.187/32, direct
+IP-CIDR, 45.40.48.1/24, direct
 IP-CIDR, 45.255.124.1/24, direct
 IP-CIDR, 50.17.126.121/32, direct
 IP-CIDR, 50.18.128.1/24, direct
@@ -20,6 +21,7 @@ IP-CIDR, 69.28.51.148/32, direct
 IP-CIDR, 103.65.41.1/24, direct
 IP-CIDR, 103.98.18.1/24, direct
 IP-CIDR, 128.1.87.1/24, direct
+IP-CIDR, 128.1.105.1/24, direct
 IP-CIDR, 129.227.57.1/24, direct
 IP-CIDR, 129.227.115.1/24, direct
 IP-CIDR, 148.153.172.1/24, direct
